@@ -1,4 +1,4 @@
-<h1 align="center">eslint-config-whatskit</h1>
+<h1 align="center">@whatskit/eslint-config</h1>
 
 > 💅 🦋 Shareable ESLint config for keeping JavaScript consistent across all of whatskit's projects, built upon [JavaScript Standard Style](https://github.com/standard/standard).
 
@@ -35,7 +35,7 @@ Then, create a new file `.eslintrc` in the root of your project and fill with:
 
 ```json
 {
-  "extends": "whatskit"
+  "extends": "@whatskit/eslint-config"
 }
 ```
 
@@ -51,7 +51,7 @@ And in your `.eslintrc`:
 
 ```json
 {
-  "extends": ["whatskit", "whatskit/react"]
+  "extends": ["@whatskit/eslint-config", "@whatskit/eslint-config/react"]
 }
 ```
 
@@ -77,7 +77,7 @@ Finally, modify your `.eslintrc`:
 
 ```json
 {
-  "extends": ["whatskit", "prettier/standard", "plugin:prettier/recommended"],
+  "extends": ["@whatskit/eslint-config", "prettier/standard", "plugin:prettier/recommended"],
   "plugins": ["prettier"]
 }
 ```

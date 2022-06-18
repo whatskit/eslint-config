@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-whatskit",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ESLint configuration for all of Whatskit's JavaScript",
   "main": "index.js",
   "prettier": "prettier-config-whatskit",
@@ -21,7 +21,7 @@
     "changelog": "auto-changelog -p"
   },
   "dependencies": {
-    "eslint": "^8.17.0",
+    "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-config-standard-react": "^11.0.1",
@@ -35,13 +35,13 @@
   },
   "devDependencies": {
     "auto-changelog": "^2.4.0",
-    "prettier": "^2.7.0",
-    "prettier-config-whatskit": "^0.1.0",
+    "prettier": "^2.7.1",
+    "prettier-config-whatskit": "^0.2.0",
     "release-it": "^15.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whatskit/eslint-config-whatskit.git"
+    "url": "git+https://github.com/whatskit/eslint-config.git"
   },
   "release-it": {
     "hooks": {
